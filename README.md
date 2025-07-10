@@ -35,13 +35,7 @@ npm install
 npm run compile
 ```
 
-### 2. Add Media Files
-
-**Required files in `media/` directory:**
-- `jimbo.png` - The Jimbo joker image from Balatro
-- `sound1.mp3` through `sound11.mp3` - The talking sound effects
-
-### 3. Run the Extension
+### 2. Run the Extension
 - Press `F5` in VS Code to open Extension Development Host
 - Look for the ▶️ icon in the Activity Bar to open Jimbo's panel
 - Or use Command Palette: "Open Jimbo Panel"
@@ -53,39 +47,6 @@ npm run compile
 3. Click it to open the Jimbo panel
 4. Start coding and use GitHub Copilot suggestions
 5. When you accept a suggestion (Tab key), watch Jimbo react!
-
-## Customization
-
-### Adding Real Media Files
-
-Replace the placeholder files in the `media/` directory:
-- `jimbo.png` - An actual image of Jimbo from Balatro
-- `jimbovoices/voice*.mp3` - Sound effects to play when code is accepted
-
-Then update the `getWebviewHtml()` method in `src/extension.ts` to use the actual image instead of the CSS-generated face.
-
-### Modifying Messages
-
-Edit the quotes in `media/quotes.json` to change what Jimbo says when code is accepted.
-
-### Styling
-
-Modify the CSS in the `getWebviewHtml()` method to change the appearance of Jimbo and speech bubbles.
-
-## File Structure
-
-```
-├── .vscode/
-│   ├── launch.json          # Debug configuration
-│   └── tasks.json           # Build tasks
-├── media/                   # Media files (images, sounds)
-├── out/                     # Compiled JavaScript
-├── src/
-│   └── extension.ts         # Main extension code
-├── package.json             # Extension manifest
-├── tsconfig.json           # TypeScript configuration
-└── README.md               # This file
-```
 
 ## Contributing
 
