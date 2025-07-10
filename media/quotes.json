@@ -1,0 +1,44 @@
+{
+  "copilotAccepted": {
+    "positive": [
+      "Nice work! That's some clean code.",
+      "Short and sweet, just how I like it!",
+      "Efficient coding! You're getting the hang of this.",
+      "Perfect! Sometimes less is more.",
+      "Clean and concise - well done!",
+      "Great job keeping it simple!",
+      "Excellent! That's exactly what we needed.",
+      "Beautiful code! Short but effective.",
+      "You're becoming quite the efficient coder!",
+      "Nicely done! Quality over quantity."
+    ],
+    "sarcastic": [
+      "Sam Altman needs to rethink his life choices after seeing that code.",
+      "That code is so bad it makes me want to cry.",
+      "I hope you didn't pay for that Copilot subscription.",
+      "That code is a crime against humanity.",
+      "I bet even the AI is embarrassed to suggest that.",
+      "How the hell did OpenAI and Anthropic manage to create such stupid models?",
+      "This code is proof that AI is definitely not ready to replace humans.",
+      "I hope you didn't use that code in production.",
+      "This is even worse than GPT 3.5, which is a feat in itself.",
+      "This code is so poorly optimized that it would give TempleOS a run for its money.",
+      "Dijkstra is probably rolling in his grave right now.",
+      "This code is a perfect example of how not to program.",
+      "Is it too late for you to switch to being a business major?"
+    ]
+  },
+  "clickQuotes": [
+    "You should stick to Python instead of C++!",
+    "You should have just used a hash map.",
+    "That GitHub Copilot suggestion was a bit off, wasn't it?",
+    "That GitHub history is looking a little empty!",
+    "I've seen worse code, but not much!",
+    "Are you sure about that variable naming convention?",
+    "The code smell is off the charts!",
+    "Trust me, just git push --force and forget about it.",
+    "Get back to grinding LeetCode problems!",
+    "At this point just make nested if statements like YandereDev and call it a day.",
+    "The next new hype-train tech-bro startup is just a GPT wrapper, how original."
+  ]
+}
