@@ -21,7 +21,10 @@
     "Other"
   ],
   "activationEvents": [
-    "*"
+    "onView:jimboView",
+    "onCommand:jimboCopilot.testReaction",
+    "onCommand:jimboCopilot.openPanel",
+    "onCommand:jimboCopilot.reloadQuotes"
   ],
   "main": "./out/extension.js",
   "contributes": {
